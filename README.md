@@ -1,11 +1,4 @@
-# Municipis_Comarques_Catalunya
-
-# Complete list of municipis by comarca by provìncia de Catalunya.
-
-# Script to Select a municipi and comarca of Catalonia. 
-
-Dades recollides de diverses fonts estadístiques de diversos organismes de la Generalitat de Catalunya i Diputacions. 
-
+         <!-- Municipi -->
           <div class="field">
             <p class='mb-1 font-bold mr-3'>Provìncia:</p>
             <%= f.select :provincia, options_for_select(['Select', 'Barcelona', 'Girona', 'Lleida', 'Tarragona']), {}, { id: 'provincia-select' } %>
@@ -157,7 +150,7 @@ Dades recollides de diverses fonts estadístiques de diversos organismes de la G
               ],
               'Conca de Barberà': ['Montblanc', 'Santa Coloma de Queralt', 'Barberà de la Conca', 'Blancafort', 'Conesa', 'L\'Espluga de Francolí', 'Forès', 'Llorac', 'Passanant i Belltall', 'Pira', 'Pontils', 'Rocafort de Queralt', 'Sarral', 'Savallà del Comtat', 'Senan', 'Solivella', 'Vallclara', 'Vallfogona de Riucorb', 'Vilanova de Prades', 'Vilaverd'
               ],
-              'Montsià': [ 'Amposta', 'Alcanar', 'Freginals', 'Godall', 'La Galera', 'Masdenverge', 'Mas de Barberans', 'Santa Bàrbara','Sant Carles de la Ràpita','Ulldecona'
+              'Montsià': [ 'Amposta', 'Alcanar', 'Freginals', 'Godall', 'La Galera', 'Masdenverge', 'Mas de Barberans', 'Santa Bàrbara','La Ràpita', 'Sant Jaume d\'Enveja', 'Santa Bàrbara', 'La Sénia', 'Ulldecona'
               ],
               'Priorat': ['Falset', 'Gratallops', 'Bellmunt del Priorat', 'Bisbal de Falset', 'Cabacés', 'Capçanes', 'Cornudella de Montsant', 'La Figuera', 'La Morera de Montsant', 'La Vilella Alta', 'La Vilella Baixa', 'Lloar', 'Margalef', 'Marçà', 'Poboleda', 'Porrera', 'Pradell de la Teixeta', 'Torroja del Priorat', 'Ulldemolins'
               ],
@@ -223,3 +216,4 @@ Dades recollides de diverses fonts estadístiques de diversos organismes de la G
             }
                       });
           </script>
+          <!-- ./municipi -->
